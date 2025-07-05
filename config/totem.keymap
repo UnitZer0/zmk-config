@@ -61,8 +61,18 @@
             bindings = <
               &kp Q       &kp W       &kp C          &kp P         &kp B        &kp V    &kp L        &kp U        &kp Y       &kp SEMICOLON
               &hm LGUI A  &hm LALT R  &hm LCTRL S    &hm LSHIFT T  &kp D        &kp M    &hm RSHFT N  &hm RCTRL E  &hm RALT I  &hm RGUI O
-&lt 3 ESCAPE  &kp Z       &kp X       &kp G          &kp F         &kp K        &kp H    &kp J        &kp COMMA    &kp DOT     &kp SLASH      &kp APOSTROPHE
-                                      &mt LCTRL DEL  &lt 1 TAB     &kp SPACE    &kp RET  &lt 2 BSPC   &kp MINUS
+&lt 4 ESCAPE  &kp Z       &kp X       &kp G          &kp F         &kp K        &kp H    &kp J        &kp COMMA    &kp DOT     &kp SLASH      &kp APOSTROPHE
+                                      &mt LCTRL DEL  &lt 2 TAB     &kp SPACE    &kp RET  &lt 3 BSPC   &kp MINUS
+            >;
+        };
+
+        QWERTY {
+            display-name = "QWERTY";
+            bindings = <
+              &kp Q  &kp W  &kp E          &kp R      &kp T        &kp Y    &kp U       &kp I      &kp O    &kp P
+              &kp A  &kp S  &kp D          &kp F      &kp G        &kp H    &kp J       &kp K      &kp L    &hm RGUI SEMICOLON
+&lt 4 ESCAPE  &kp Z  &kp X  &kp C          &kp V      &kp B        &kp N    &kp M       &kp COMMA  &kp DOT  &kp SLASH           &kp APOSTROPHE
+                            &mt LCTRL DEL  &lt 2 TAB  &kp SPACE    &kp RET  &lt 3 BSPC  &kp MINUS
             >;
         };
 
@@ -81,7 +91,7 @@
             bindings = <
                 &kp EXCL  &kp AT  &kp HASH   &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
                 &trans    &trans  &kp RA(S)  &trans      &trans         &trans     &trans         &trans           &trans   &trans
-&studio_unlock  &to 6     &to 0   &trans     &trans      &trans         &kp UNDER  &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
+&studio_unlock  &to 1     &to 0   &trans     &trans      &trans         &kp UNDER  &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
                                   &trans     &trans      &trans         &trans     &trans         &trans
             >;
         };
@@ -89,7 +99,7 @@
         Fun {
             display-name = "Fun";
             bindings = <
-        &bootloader  &trans  &trans  &trans  &to 4     &trans  &trans  &trans  &kp END  &kp F1
+        &bootloader  &trans  &trans  &trans  &to 5     &trans  &trans  &trans  &kp END  &kp F1
         &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp F10
 &trans  &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &kp F20  &kp F7
                              &trans  &trans  &trans    &trans  &trans  &trans
@@ -99,7 +109,7 @@
         Gaming {
             display-name = "Game";
             bindings = <
-            &kp Z           &kp X  &kp C      &kp V         &sl 5     &trans  &trans  &trans  &trans  &trans
+            &kp Z           &kp X  &kp C      &kp V         &sl 6     &trans  &trans  &trans  &trans  &trans
             &kp TAB         &kp Q  &kp W      &kp E         &kp R     &trans  &trans  &trans  &trans  &trans
 &kp ESCAPE  &kp LEFT_SHIFT  &kp A  &kp S      &kp D         &kp F     &trans  &trans  &trans  &trans  &trans  &trans
                                    &kp LCTRL  &kp LEFT_ALT  &trans    &trans  &trans  &trans
@@ -113,16 +123,6 @@
         &kp L    &kp O         &kp Y         &kp K         &kp G     &kp F5         &kp F7         &trans  &trans  &kp F12
 &trans  &to 0    &trans        &trans        &trans        &trans    &trans         &trans         &trans  &trans  &kp F22          &kp LA(F4)
                                &kp J         &kp I         &kp M     &trans         &trans         &trans
-            >;
-        };
-
-        QWERTY {
-            display-name = "QWERTY";
-            bindings = <
-              &kp Q  &kp W  &kp E          &kp R      &kp T        &kp Y    &kp U       &kp I      &kp O    &kp P
-              &kp A  &kp S  &kp D          &kp F      &kp G        &kp H    &kp J       &kp K      &kp L    &hm RGUI SEMICOLON
-&lt 3 ESCAPE  &kp Z  &kp X  &kp C          &kp V      &kp B        &kp N    &kp M       &kp COMMA  &kp DOT  &kp SLASH           &kp APOSTROPHE
-                            &mt LCTRL DEL  &lt 1 TAB  &kp SPACE    &kp RET  &lt 2 BSPC  &kp MINUS
             >;
         };
     };
