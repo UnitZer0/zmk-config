@@ -19,6 +19,7 @@
 #define Fun         3
 #define Game        4
 #define Gameplus    5
+#define QWERTY      6
 
 &mt {
     quick-tap-ms = <100>;
@@ -116,7 +117,7 @@
         };
 
         QWERTY {
-            display-name = "Base";
+            display-name = "QWERTY";
             bindings = <
               &kp Q  &kp W  &kp E          &kp R      &kp T        &kp Y    &kp U       &kp I      &kp O    &kp P
               &kp A  &kp S  &kp D          &kp F      &kp G        &kp H    &kp J       &kp K      &kp L    &hm RGUI SEMICOLON
