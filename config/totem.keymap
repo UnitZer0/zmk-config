@@ -59,9 +59,9 @@
         Base {
             display-name = "Base";
             bindings = <
-              &kp Q       &kp W       &kp C          &kp P         &kp B        &kp V    &kp L        &kp U        &kp Y       &kp SEMICOLON
-              &hm LGUI A  &hm LALT R  &hm LCTRL S    &hm LSHIFT T  &kp D        &kp M    &hm RSHFT N  &hm RCTRL E  &hm RALT I  &hm RGUI O
-&lt 4 ESCAPE  &kp Z       &kp X       &kp G          &kp F         &kp K        &kp H    &kp J        &kp COMMA    &kp DOT     &kp SLASH      &kp APOSTROPHE
+              &kp Q       &kp W       &kp F          &kp P         &kp B        &kp J    &kp L        &kp U        &kp Y       &kp SEMICOLON
+              &hm LGUI A  &hm LALT R  &hm LCTRL S    &hm LSHIFT T  &kp G        &kp M    &hm RSHFT N  &hm RCTRL E  &hm RALT I  &hm RGUI O
+&lt 4 ESCAPE  &kp Z       &kp X       &kp C          &kp D         &kp V        &kp K    &kp H        &kp COMMA    &kp DOT     &kp SLASH      &kp APOSTROPHE
                                       &mt LCTRL DEL  &lt 2 TAB     &kp SPACE    &kp RET  &lt 3 BSPC   &kp MINUS
             >;
         };
