@@ -1,8 +1,6 @@
 include:
   - board: seeeduino_xiao_ble
     shield: totem_left
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: seeeduino_xiao_ble
     shield: totem_right
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
 # there is no settingsreset (needed) for the XIAO
